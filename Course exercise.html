@@ -10,6 +10,10 @@
       margin-top:8px;
     }
 
+    .uber:hover{
+      opacity:0.8;
+    }
+
     .amazon {
       background-color:rgb(255, 216, 20);
       color:black;
@@ -18,6 +22,10 @@
       height:36px;
       width:120px;
       cursor:pointer;
+    }
+
+    .amazon:hover {
+      background-color:#fffb0b;
     }
 
     .github {
@@ -30,7 +38,11 @@
       height:36px;
       width:80px;
       cursor:pointer;
-    }  
+    } 
+    
+    .github:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
 
     hr {
       border:none;
@@ -49,6 +61,11 @@
       cursor:pointer;
     }
 
+    .A:hover {
+      background-color:rgb(50, 2, 95);
+      color:white;
+    }
+
     .B {
       background-color:rgb(255, 255, 255);
       color:gray;
@@ -59,6 +76,11 @@
       font-weight:bold;
       font-size:15px;
       cursor:pointer;
+   }
+
+   .B:hover{
+    background-color:rgb(94, 93, 93);
+    color:white;
    }
 
    .apply {
@@ -74,6 +96,10 @@
      margin-top:8px;
    }
 
+   .apply:hover {
+     background-color:rgb(1, 57, 113);
+   }
+
    .save {
      background-color:white;
      color:rgb(10, 102, 194);
@@ -86,6 +112,18 @@
      font-size:15px;
      cursor:pointer;
      margin-bottom:8px;
+     transition:background-color 0.15s, border-width 0.15s;
+   }
+
+   .save:hover {
+    background-color:rgba(21, 132, 243, 0.256);
+    border-width:2px;
+   }
+
+
+   .link:hover {
+    color:blue;
+    font-style:italic;
    }
 
 </style>
@@ -96,8 +134,9 @@
 <button>Meat</button>
 <p>Hello word!</p>
 <p>Hello world I'm going to work at 11:30 today</p>
-<a href="https://www.google.com/" target="_blank">Search on Google</a>
-<a href="https://www.amazon.com/" target="_blank">Shop @amazon</a>
+<a href="https://www.google.com/" target="_blank" class="link">Search on Google</a>
+<br>
+<a href="https://www.amazon.com/" target="_blank" class="link">Shop @amazon</a>
 <p>Nike Black Running Shoes</p>
 <p>$39 - in stock.</p>
 <p>Free Delivery Tomorrrow.</p>
